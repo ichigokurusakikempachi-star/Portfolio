@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html">Portfolio</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="My-Hobbies.html">Hobbies</a></li>
+        <li><a href="Contact-Me.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Get in touch</h2>
+      <p class="hobby-intro">For collaborations or inquiries, share a message below and a response will follow promptly.</p>
+
+      <form class="form" action="#" method="post">
+        <div>
+          <label class="label" for="name">Name</label>
+          <input class="input" type="text" id="name" name="name" placeholder="Full name" required />
+        </div>
+
+        <div>
+          <label class="label" for="email">Email</label>
+          <input class="input" type="email" id="email" name="email" placeholder="email@example.com" required />
+        </div>
+
+        <div>
+          <label class="label" for="subject">Subject</label>
+          <input class="input" type="text" id="subject" name="subject" placeholder="Project or question" />
+        </div>
+
+        <div>
+          <label class="label" for="message">Message</label>
+          <textarea class="textarea" id="message" name="message" placeholder="Share a few details..." required></textarea>
+        </div>
+
+        <div style="display:flex; gap:12px; justify-content:flex-start;">
+          <button class="btn" type="submit">Send message</button>
+          <a class="btn" href="mailto:samueljacob637@gmail.com">Email directly</a>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> [Full Name]. All rights reserved.</p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

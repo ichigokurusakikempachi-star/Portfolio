@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Professional CV</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <!-- Global Header -->
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html">Portfolio</a>
+      <ul class="nav-links">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="My-Hobbies.html">Hobbies</a></li>
+        <li><a href="Contact-Me.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- Hero / Profile -->
+    <section class="hero card">
+      <img src="My-Pic.jpg" alt="Profile photo" class="avatar" />
+      <h1 class="title">Samuel Jacob</h1>
+      <p class="tagline">Web developer focused on crafting clear, elegant, and user‑friendly online experiences.</p>
+    </section>
+
+    <!-- Summary -->
+    <section class="card">
+      <h2>Summary</h2>
+      <p>
+        Translates ideas into engaging digital experiences with clarity, structure, and attention to detail, combining creative sensibility with dependable delivery and stakeholder‑friendly communication.
+      </p>
+      <p>
+        Background includes audio mastering and operations support, bringing strong organization, quality control, and on‑time execution to every project.
+      </p>
+    </section>
+
+    <!-- Experience Timeline -->
+    <section class="card">
+      <h2>Experience</h2>
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Web Developer</h3>
+            <p class="meta">August 2025 — Present</p>
+            <p>Designs and ships polished sites with a focus on clarity, brand alignment, and smooth collaboration.</p>
+          </div>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Executive Assistant</h3>
+            <p class="meta">October 2021 — August 2025</p>
+            <p>Coordinated operations, documentation, and stakeholder schedules to maintain reliable delivery and high standards.</p>
+          </div>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Freelance Sound Engineer</h3>
+            <p class="meta">June 2013 — October 2021</p>
+            <p>Provided end‑to‑end mastering support, communication, and iterative refinements for client releases.</p>
+          </div>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Sales Intern</h3>
+            <p class="meta">Sep 2012 — June 2013</p>
+            <p>Supported customer engagement and assisted with product presentations and documentation.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Education -->
+    <section class="card">
+      <h2>Education</h2>
+      <ul class="list">
+        <li><strong>Bachelor of Commerce (B.Com)</strong> — MG University (2019)</li>
+        <li><strong>Higher Secondary School</strong> - The Indian School, Bahrain (2006)</li>
+        <li><strong>Secondary School</strong>- The Asian School (2004)</li>
+      </ul>
+    </section>
+
+    
+    
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> [Full Name]. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>

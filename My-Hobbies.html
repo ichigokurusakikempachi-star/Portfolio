@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Hobbies</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html">Portfolio</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="My-Hobbies.html" aria-current="page">Hobbies</a></li>
+        <li><a href="Contact-Me.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Hobbies</h2>
+      <p class="hobby-intro">A few pursuits that bring energy, creativity, and balance outside of work.</p>
+
+      <div class="hobby-grid">
+        <article class="hobby">
+          <h3>Music & Sound</h3>
+          <p>Exploring music creation, listening sessions, and sharpening a critical ear for detail.</p>
+        </article>
+
+
+        <article class="hobby">
+          <h3>Learning & Languages</h3>
+          <p>Studying new topics and languages to broaden perspective and communication.</p>
+        </article>
+
+        
+
+        <article class="hobby">
+          <h3>Nature & Growing</h3>
+          <p>Hands‑on exploration of cultivation and mindful time outdoors.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> [Full Name]. All rights reserved.</p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
